@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_152850_custom_ap.user" name="x_152850_custom_ap.user">fc3cfdd1072e901431d0f61d7c1ed093</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-09 20:01:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fc3cfdd1072e901431d0f61d7c1ed098</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fc3cfdd1072e901431d0f61d7c1ed093</sys_name>
+        <sys_package display_value="custom apps dev" source="x_152850_custom_ap">b70cf5150766901431d0f61d7c1ed046</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="custom apps dev">b70cf5150766901431d0f61d7c1ed046</sys_scope>
+        <sys_update_name>sys_embedded_help_role_fc3cfdd1072e901431d0f61d7c1ed098</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-09 20:01:37</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
