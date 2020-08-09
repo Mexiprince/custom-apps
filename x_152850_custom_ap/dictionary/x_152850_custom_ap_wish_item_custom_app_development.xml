@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Wish Item custom app development" max_length="40" name="x_152850_custom_ap_wish_item_custom_app_development" type="collection">
+        <element label="Describers" mandatory="true" max_length="150" name="describers" type="string"/>
+        <element label="Requestor" mandatory="true" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <element label="New True/False" max_length="40" name="u_boolean_6" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe your needs" mandatory="true" max_length="40" name="u_describe" type="string"/>
+        <element label="Due Date" mandatory="true" max_length="40" name="u_due_date_4" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" label="New Date" max_length="40" name="u_glide_date_5" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Item" max_length="125" name="u_item" type="string"/>
+        <element attributes="encode_utf8=false" label="Requester" mandatory="true" max_length="32" name="u_requester" reference="sys_user" type="reference"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Wish Price" max_length="20" name="u_wishprice" type="price"/>
+        <index name="index">
+            <element name="u_requester"/>
+        </index>
+        <index name="index2">
+            <element name="requestor"/>
+        </index>
+    </element>
+</database>
